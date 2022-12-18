@@ -1,0 +1,18 @@
+{
+  "name": "kudasai",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbking/kudasai.git"
+  },
+  "keywords": [],
+  "author": "Stephen Brian King <stephen.brian.king@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbking/kudasai/issues"
+  },
+  "homepage": "https://github.com/sbking/kudasai/#readme"
+}
