@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "lib": ["ES6", "DOM"],
+    "target": "ES6",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
