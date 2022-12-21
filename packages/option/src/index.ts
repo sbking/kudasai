@@ -33,13 +33,11 @@
  * Individual options can be combined using `and` and `or`:
  *
  * ```ts
- * const option1 = some(1);
- * const option2 = some(2);
- * const result = option1.and(option2); // result is Some(1)
- *
- * const option3 = none;
- * const option4 = some(4);
- * const result2 = option3.or(option4); // result2 is Some(4)
+ * some(1).and(some(2)); // Some(2)
+ * none.and(some(1)); // None
+ * none.or(some(1)); // Some(1)
+ * none.or(none); // None
+ * ```
  */
 export type Option<T> = Some<T> | None;
 
